@@ -31,14 +31,6 @@ git config --global user.token xxxxxxxxxxxxxx
 git config --global core.editor nano
 ```
 
-git config --global user.name "username"
-git config --global user.email nialljbourke@gmail.com
-git config --global user.token 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
-git config --global core.editor nano
-
-
-
-
 ### Storing credentials
 https://stackoverflow.com/questions/35942754/how-can-i-save-username-and-password-in-git  
 Attention: This method saves the credentials in plaintext on your PC's disk. Everyone on your computer can access it, e.g. malicious NPM modules.
