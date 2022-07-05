@@ -1,0 +1,85 @@
+{
+    "Manufacturer": "Hypyerfine",
+    "ManufacturersModelName": "Swoop",
+    "InstitutionName": "South Africa Cubic",
+	"InstitutionAddress": "Capetown",
+	"DeviceSerialNumber": "HG20510028",
+    "Modality": "MR",
+    "MagneticFieldStrength": 0.063,
+    "descriptions": [
+        {
+            "dataType": "anat",
+            "modalityLabel": "localizer",
+            "criteria": {
+                "SeriesDescription": "*_Localizer__Auto_Align_"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "localizer",
+            "criteria": {
+                "SeriesDescription": "*_Localizer__coronal_"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T1w",
+            "criteria": {
+                "SeriesDescription": "*_T1__AXI___DL_-NOT_FOR_DIAGNOSTIC_USE"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "axi",
+            "criteria": {
+                "SeriesDescription": "*_T2__AXI___DL_-NOT_FOR_DIAGNOSTIC_USE"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "cor",
+            "criteria": {
+                "SeriesDescription": "*_T2-Weighted_FSE__COR___DL_-NOT_FOR_DIAGNOSTIC_USE"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "T2w",
+            "customLabels": "sag",
+            "criteria": {
+                "SeriesDescription": "*_T2-Weighted_FSE__SAG___DL_-NOT_FOR_DIAGNOSTIC_USE"
+            }
+        },
+        {
+            "dataType": "anat",
+            "modalityLabel": "flair",
+            "customLabels": "axi",
+            "criteria": {
+                "SeriesDescription": "*_FLAIR__AXI___DL_-NOT_FOR_DIAGNOSTIC_USE"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "dti",
+            "criteria": {
+                "SeriesDescription": "*_DWI"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "b0",
+            "criteria": {
+                "SeriesDescription": "*_DWI__b_0_"
+            }
+        },
+        {
+            "dataType": "dwi",
+            "modalityLabel": "adc",
+            "criteria": {
+                "SeriesDescription": "*_ADC_mapping"
+            }
+        }
+    ]
+}
